@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Alexandre Munsch</title>
+</head>
+
+<body class="body">
+    <div class="portfolio">
+        <div>
+            <div class="start">
+                <div class="Name">
+                    <h1 class="t1">Munsch alexandre</h1>
+                </div>
+                <div>
+                    <img class="pdp" src="img/pp.png" alt="Photo Alexandre">
+                </div>
+            </div>
+        </div>
+        <div class="outline">
+            <h2 class="t2">Outline me</h2>
+            <div class="content-outline">
+                <span> Je m'appelle Alexandre, j'ai 20ans et je suis étudiant au CESI de ROUEN en développement informatique.</span>
+                <span> J'aime beaucoup l'informatique, surtout la programmation, j'aime les choses concrètes alors déveloper un site ou un appli pour un client, c'est un beau rêve qui se réalise.</span>
+                <span> J'aime découvrir de nouvelles choses, alors je ne cesse de chercher de nouvelles connaissances que ce soit via les cours ou en autodidacte, dans le but de me perfectionner.</span>
+            </div>
+        </div>
+        <div class="skill">
+            <h2 class="t2">Skills</h2>
+            <div class="content-skill">
+                <div class="s-l-c">
+                    <div class="ll-img">
+                        <img src="img/HTML5.png" alt="Logo langage html5">
+                    </div>
+                    <div class="t-s">
+                        <span> HTML </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(90, 'gauge1')" ondblclick="resetGauge('gauge1')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge1" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow1">
+                        <input type="image" id="arrow1" alt="arrow1" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden1', 'arrow1')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden1">
+                        <pre>
+Sait utiliser HTML 5.
+
+· Utilisé pour faire l'affichage du projet Pendu API.
+· Utilisé pour faire l'affichage du projet IOT Stattion météo.
+· Utilisé pour faire l'affichage du projet site de matching.
+· Utilisé d'autres projets de sites internet.
+                        </pre>
+                    </div>
+                </div>
+                <div class="s-l-c">
+                    <div class="ll-img">
+                        <img src="img/CSS.png" alt="Logo langage CSS">
+                    </div>
+                    <div class="t-s">
+                        <span> CSS </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(65, 'gauge2')" ondblclick="resetGauge('gauge2')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge2" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow2">
+                        <input type="image" id="arrow2" alt="arrow2" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden2', 'arrow2')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden2">
+                        <pre>
+Sait utiliser CSS avec et sans FrameWorks.
+- CSS pure
+- Tailwind
+- Bootstarp
+
+· Utilisé pour faire l'affichage du projet Pendu API.
+· Utilisé pour faire l'affichage du projet IOT Station météo.
+· Utilisé pour faire l'affichage du projet site de matching.
+· Utilisé d'autres projets de sites internet.
+                        </pre>
+                    </div>
+                </div>
+                <div class="s-l-c">
+                    <div class="ll-img">
+                        <img src="img/JS.png" alt="Logo langage JS">
+                    </div>
+                    <div class="t-s">
+                        <span> JavaScript </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(45, 'gauge3')" ondblclick="resetGauge('gauge3')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge3" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow3">
+                        <input type="image" id="arrow3" alt="arrow3" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden3', 'arrow3')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden3">
+                        <pre>
+Sait utiliser JavaScript.
+- JS pure
+
+· Utilisé pour ce Portfolio.
+· Utilisé pour faire un calculateur et trieur de factures.
+                        </pre>
+                    </div>
+                </div>
+                <div class="s-l-c">
+                    <div class="ll-img">
+                        <img src="img/Python.png" alt="Logo langage Python">
+                    </div>
+                    <div class="t-s">
+                        <span> Python </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(60, 'gauge4')" ondblclick="resetGauge('gauge4')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge4" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow4">
+                        <input type="image" id="arrow4" alt="arrow4" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden4', 'arrow4')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden4">
+                        <pre>
+Sait utiliser le langage Python pour faire des API.
+- Python flask
+
+· Utilisé pour faire l'API du projet Pendu API.
+· Utilisé pour faire l'API du projet IOT Station météo.
+· Utilisé pour faire l'API du projet site de matching.
+                        </pre>
+                    </div>
+                </div>
+                <div class="s-l-c">
+                    <div class="ll-img">
+                        <img src="img/C.png" alt="Logo langage C">
+                    </div>
+                    <div class="t-s">
+                        <span> C </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(60, 'gauge5')" ondblclick="resetGauge('gauge5')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge5" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow5">
+                        <input type="image" id="arrow5" alt="arrow5" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden5', 'arrow5')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden5">
+                        <pre>
+Sait utiliser le langage C.
+
+· Utilisé pour faire un Pendu en console.
+· Utilisé dans le projet IOT Station météo.
+                        </pre>
+                    </div>
+                </div>
+                <div class="s-l-c">
+                    <div>
+                        <img class="ll-img" src="img/SQL.png" alt="Logo langage SQL">
+                    </div>
+                    <div class="t-s">
+                        <span> SQL </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(40, 'gauge6')" ondblclick="resetGauge('gauge6')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge6" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow6">
+                        <input type="image" id="arrow6" alt="arrow6" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden6', 'arrow6')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden6">
+                        <pre>
+Sait utiliser le langage SQL pour la création et gestion de base de données.
+                        
+· Utilisé pour faire les base de données du projet Pendu API.
+· Utilisé pour faire les base de données du projet IOT Station météo.
+· Utilisé pour faire les base de données du projet site de matching.
+                        </pre>
+                    </div>
+                </div>
+                <div class="s-l-c">
+                    <div class="ll-img">
+                        <img src="img/php.png" alt="Logo langage PHP">
+                    </div>
+                    <div class="t-s">
+                        <span> php </span>
+                    </div>
+                    <div class="gauge-container" onclick="autoFillGauge(30, 'gauge7')" ondblclick="resetGauge('gauge7')">
+                        <div id="gauge-background" class="gauge-background"></div>
+                        <div id="gauge7" class="gauge">
+                            <div class="percentage">0%</div>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                    <div id="arrow7">
+                        <input type="image" id="arrow7" alt="arrow7" 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3XOQ7CQBBE0bqEWe5/DnJAQGC243xkYUsmAIyXcY+oH09L/dTRSM4555xzzv1toC1oDyoULFAB2oE2XR4fQYDKSBieiHO926HLwKI1cAOtkmz6HVHWO91B666DYTD0RUTCMBQRAcNYiDkxjI2YA8NUiJQYpkakwCRDTIlJjpgCMxtiTMzsiDEwYRBDMOEQfTBhEb9gwiO6YLJBfMJkh2gCLUHX1k+zgV0qqHKK18vkdYk3lzlVf+zsLuGcc84555yi9gAQtwa2EtB98QAAAABJRU5ErkJggg==" 
+                        onclick="toggleVisibility('hidden7', 'arrow7')">
+                    </div>
+                    <script src="script.js"></script>
+                    <div class="hide" id="hidden7">
+                        <pre>
+Sait utiliser le langage php.
+                        
+· Utilisé dans un projet de site web pour une converence scientfique (fictive).
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <h2 class="t2">Projects</h2>
+            <div class="content-project">
+                <div class="p-p">
+                    <a href="https://github.com/AleMunsch/pendu-C" id="p-lien">
+                        <div class="p-p-img">
+                            <img class="img-code1" src="img/img-code.png" alt="img code">
+                        </div>
+                        <div class="p-p-txt">
+                            <span>Projet jeux du pendu en console.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-p">
+                    <a href="https://github.com/AleMunsch/Matching" id="p-lien">
+                        <div class="p-p-img">
+                            <img class="img-code1" src="img/img-code.png" alt="img code">
+                        </div>
+                        <div class="p-p-txt">
+                            <span>Projet site de matching.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-p">
+                    <a href="https://github.com/MAgodin/Project_IOT" id="p-lien">
+                        <div class="p-p-img">
+                            <img class="img-code1" src="img/img-code.png" alt="img code">
+                        </div>
+                        <div class="p-p-txt">
+                            <span>Projet IOT Station météo.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-p">
+                    <a href="https://github.com/AleMunsch/Pendu-API" id="p-lien">
+                        <div class="p-p-img">
+                            <img class="img-code1" src="img/img-code.png" alt="img code">
+                        </div>
+                        <div class="p-p-txt">
+                            <span>Projet jeux du pendu API.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-p">
+                    <a href="https://github.com/AleMunsch/Klaq-test-exercice" id="p-lien">
+                        <div class="p-p-img">
+                            <img class="img-code1" src="img/img-code.png" alt="img code">
+                        </div>
+                        <div class="p-p-txt">
+                            <span>Projet gestionnaire et trieur de facture JS.</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-p">
+                    <a href="https://github.com/AleMunsch/Portfolio" id="p-lien">
+                        <div class="p-p-img">
+                            <img class="img-code1" src="img/img-code.png" alt="img code">
+                        </div>
+                        <div class="p-p-txt">
+                            <span>Projet Portfolio.</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h2 class="t2">Contact me</h2>
+            <div class="content-contact"></div>
+        </div>
+    </div>
+</body>
+
+</html>

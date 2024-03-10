@@ -1,0 +1,11 @@
+Skills
+animation agrandissement des div de langages pour faire apparaître 
+les différents projets pour lesquels j'ai utilisé le langage précis
+
+Projects
+afficher dans des blocs en grids les differents projets ainsi que en petits icons 
+les différents langages utiliseés et une légendes sous chaque projets 
+quand tu clique doit redirigé vers le projets sur Github.
+
+Contact me
+logo des différents réseaux sur lesquels je suis + formulaire (fictif)
