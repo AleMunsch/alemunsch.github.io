@@ -1,0 +1,118 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 40px;
+}
+
+nav ul li {
+    position: relative;
+    display: inline;
+    margin: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: rgb(255, 248, 0);
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav ul li.active::after {
+    width: 100%;
+}
+
+/* Section principale */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 248, 0, 0.5);
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+}
+
+.card .description h2 {
+    margin-bottom: 0px;
+}
+
+.card .description h3 {
+    margin-top: 0px;
+    color: rgb(255, 248, 0);
+    font-size: medium;
+}
+
+
+footer {
+    margin: 0px 20px;
+}
